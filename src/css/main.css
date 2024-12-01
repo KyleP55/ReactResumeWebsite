@@ -1,0 +1,217 @@
+.pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pageInfo {
+    background-color: #fff;
+    margin: 0px 0px;
+    padding: 8px 8%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.contentHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contentHeaderTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.025em;
+
+    color: #0B0909;
+}
+
+.line {
+    margin: 0px 20px;
+}
+
+.paragraphDiv {
+    padding: 0px 10px;
+}
+
+.paragraphText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+.subTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.sectionDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutMeSection {
+    width: 48%;
+    padding: 12px;
+    margin: 1% 1%;
+    border-radius: 10px;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sectionTitleText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    margin: 0px;
+    color: #000000;
+}
+
+.sectionTitleImage {
+    width: auto;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.sectionText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+
+.orange {
+    background-color: #FFEBD1;
+}
+
+.grey {
+    background-color: #F2F7FC;
+}
+
+.eduExpTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.eduExpImg {
+    width: 27px;
+    height: 27px;
+}
+
+.eduExpTitleText {
+    margin-top: 4px;
+}
+
+.eduExpSection {
+    width: 100%;
+    padding: 8px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.eduExpSectionTitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8686px;
+    line-height: 16px;
+    color: rgba(26, 16, 3, 0.5);
+}
+
+.eduExpSectionText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.8686px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.eduExpSectionText2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.8686px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.col1 {
+    background-color: #FFE3BF;
+}
+
+.col2 {
+    background-color: #FFEED9;
+}
+
+.flatBottom {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.skillsTitleText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    margin: 8px 0px;
+}
+
+.skillsContainer {
+    width: 100%;
+    margin: 0px 0px;
+    padding: 8px 8%;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #F8FBFB;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+}
+
+.skill {
+    padding: 0px 8px;
+    background-color: #E1E8EF;
+    border-radius: 20px;
+    margin: 8px 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}

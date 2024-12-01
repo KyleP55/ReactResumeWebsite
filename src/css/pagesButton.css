@@ -1,0 +1,83 @@
+.pagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 36.6px;
+    isolation: isolate;
+
+    background: #F2F7FC;
+    box-shadow: 0px 0px 4px #c3c3c3;
+    border-radius: 20px;
+    width: 503px;
+    height: 94px;
+    margin-bottom: 8px;
+}
+
+.pagesButton {
+    width: 80px;
+    height: 80px;
+
+    background: #E1E8EF;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pagesButton:hover {
+    background-color: rgb(187, 187, 187);
+    transition: 0.2s;
+}
+
+.pagesButtonActive {
+    background: linear-gradient(91.49deg, #FF9C1A 7.92%, #E80505 108.2%);
+}
+
+.pagesButtonInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagesButtonIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagesButtonText {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+
+color: #1A1003;
+margin: 0px;
+}
+
+.pagesButtonInfoActive {
+    color: #F2F7FC;
+}
+
+@media only screen and (max-width: 991px) {
+    .pagesContainer {
+        width: 100%;
+    }
+
+    .pagesButton {
+        width: 140px;
+    }
+
+    .pagesButtonInfo {
+        flex-direction: row;
+    }
+}

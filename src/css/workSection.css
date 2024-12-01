@@ -1,0 +1,28 @@
+.workSectionDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.workSection {
+    padding: 8px;
+    border-radius: 8px;
+    max-width: 48%;
+}
+
+.workSectionImage {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.workSectionText {
+    color: #1A1003;
+    padding: 4px;
+    margin: 0px;
+}
+

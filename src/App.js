@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Header from './components/Header.js';
+import Home from "./pages/Home.js";
+import Resume from "./pages/Resume.js";
+import Work from "./pages/Work.js";
+import Contact from "./pages/Contact.js";
+
+import "./css/main.css";
 
 function App() {
+  const [activePage, setActivePage] = useState(0);
+
+  function onClickHandler(i) {
+    setActivePage(i);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Header />}>
+            <Route index element={<Home activePage={activePage} onClick={onClickHandler} />} />
+            <Route path="resume" element={<Resume activePage={activePage} onClick={onClickHandler} />} />
+            <Route path="work" element={<Work activePage={activePage} onClick={onClickHandler} />} />
+            <Route path="contact" element={<Contact activePage={activePage} onClick={onClickHandler} />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
