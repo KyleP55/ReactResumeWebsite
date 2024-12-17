@@ -10,7 +10,7 @@
 .workSection {
     padding: 8px;
     border-radius: 8px;
-    max-width: 48%;
+    max-width: 100%;
 }
 
 .workSectionImage {
@@ -20,9 +20,19 @@
     border-radius: 8px;
 }
 
+.workSectionTitleText {
+    text-align: center;
+    padding-top: 4px;
+}
+
 .workSectionText {
     color: #1A1003;
     padding: 4px;
     margin: 0px;
+    text-align: center;
+}
+
+.outerDiv {
+    width: 48%;
 }
 

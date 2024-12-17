@@ -11,11 +11,11 @@ function WorkSection({ info, index }) {
 
 
 
-    return (<div className={cn}><a href={info.link} className="clearUnderline">
+    return (<div className="outerDiv"><div className={cn}><a href={info.link} className="clearUnderline">
         <img src={info.img} className="workSectionImage" alt="image" />
-        <p className="sectionTitleText">{info.title}</p>
+        <p className="sectionTitleText workSectionTitleText">{info.title}</p>
         <p className="sectionText workSectionText">{info.description}</p>
-    </a></div>);
+    </a></div></div>);
 
 }
 
