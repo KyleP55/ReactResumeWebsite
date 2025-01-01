@@ -1,4 +1,4 @@
-import headShot from '../images/headshot.jpg';
+import headShot from '../images/HeadShot2.png';
 import SocialsButton from './SocialsButton';
 import ContactGroup from './ContactGroup';
 import '../css/profile.css';
