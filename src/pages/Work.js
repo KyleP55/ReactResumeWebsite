@@ -1,6 +1,9 @@
+import { useEffect } from "react";
 import Profile from "../components/Profile";
 import PagesGroup from "../components/PagesGroup";
+import $ from "jquery";
 
+import setBodyHeight from "../utility/setBodyHeight";
 import ChattyAppIcon from "../images/ChattyAppSS.png"
 import DbProjectTN from "../images/dbProjectTN.png";
 import RRCTN from "../images/RRCTN.png";
@@ -60,10 +63,17 @@ const workInfo = [
 ]
 
 function Work({ activePage, onClick }) {
+    // Scroll Fade Away
+    $(function () {
+        setTimeout(() => {
+            $(".mouse").fadeOut(2000);
+        })
+    });
+
     return (<div className='row flex-row-reverse headMarg'>
         <div className='col-xl-9 col-lg-8 col-md-12 pageContent'>
             <PagesGroup activePage={activePage} onClick={onClick} />
-            <div className="row pageInfo">
+            <div className="row pageInfo scroll" id="pageInfo">
                 <div className="contentHeader">
                     <h2 className="contentHeaderTitle">PORTFOLIO</h2>
                     <img src={Line} className="line" />
@@ -74,6 +84,7 @@ function Work({ activePage, onClick }) {
                         return (<WorkSection info={i} index={index} key={index} />)
                     })}
                 </div>
+                <div className="mouse" />
             </div>
         </div>
         <Profile />

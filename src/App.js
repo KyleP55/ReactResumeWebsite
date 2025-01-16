@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import setBodyHeight from "./utility/setBodyHeight.js";
 
 import Header from './components/Header.js';
 import Home from "./pages/Home.js";

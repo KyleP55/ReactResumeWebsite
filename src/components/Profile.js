@@ -1,7 +1,9 @@
+import { useEffect } from 'react';
 import headShot from '../images/HeadShot2.png';
 import SocialsButton from './SocialsButton';
 import ContactGroup from './ContactGroup';
 import '../css/profile.css';
+import setBodyHeight from '../utility/setBodyHeight';
 
 import mobileImg from '../images/gridicons_phone.svg';
 import emailImg from '../images/Email.svg';
@@ -30,10 +32,9 @@ const contactInfo = [
 ];
 
 function Profile() {
-
     return (<div className="col-xl-3 col-lg-4 col-md-12 col-sm-12 profileContainer">
         <div className="row profileSideMarg">
-            <div className="profileBody">
+            <div className="profileBody" id="profileBody">
                 <div className="profileInfoContainer">
                     <div className="mx-auto headShot">
                         <img src={headShot} className='headShotImg' />

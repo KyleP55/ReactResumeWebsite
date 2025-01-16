@@ -12,6 +12,11 @@
     border-radius: 20px;
 }
 
+.scroll {
+    overflow-y: scroll;
+    height: 548.567px;
+}
+
 .contentHeader {
     display: flex;
     flex-direction: row;
@@ -32,6 +37,7 @@
 
 .line {
     margin: 0px 20px;
+    display: block;
 }
 
 .paragraphDiv {
@@ -253,6 +259,10 @@ form {
     margin-bottom: 12px;
 }
 
+.inputLayout:focus {
+    outline: none;
+}
+
 .submitButton {
     background-color: #F8FBFB;
     border-style: none;
@@ -267,4 +277,103 @@ form {
 .subButtonSVG:hover {
     opacity: 75%;
     background-color: #B5B5B5;
+}
+
+.errMessage {
+    color: #ff0000;
+    text-align: center;
+}
+
+.centerFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+ .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scroll {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+
+.mouse {
+    width: 50px;
+    height: 90px;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    position: absolute;
+    z-index: 3;
+    top: 725px;
+    right: 10%;
+    &::before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        opacity: 1;
+        animation: wheel 1s infinite;
+        -webkit-animation: wheel 1s infinite;
+    }
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+.bg {
+    background-color: #F2F5F9;
+    padding: 0px 16px;
+    min-height: 100dvh;
+}
+
+.display {
+    display: block;
+}
+
+.mobileDisplay {
+    display: none;
+}
+
+@media only screen and (max-width: 660px) {
+    .pageInfo {
+        padding: 0.2rem;
+    }
+
+    .aboutMeSection {
+        width: 100%;
+        padding: 12px;
+        margin: 1% 1%;
+        border-radius: 10px;
+    }
+
+    .display {
+        display: none;
+    }
+    
+    .mobileDisplay {
+        display: block;
+    }
+
+    .line {
+        display: none;
+    }
 }

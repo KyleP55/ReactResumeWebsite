@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import Profile from "../components/Profile";
 import PagesGroup from "../components/PagesGroup";
 import Line from "../images/line.svg";
+import $ from "jquery";
 
 import AboutMeSection from "../components/AboutMeSection";
 
@@ -33,11 +35,17 @@ const sectionInfo = [
 ]
 
 function Home({ activePage, onClick }) {
+    // Scroll Fade Away
+    $(function () {
+        setTimeout(() => {
+            $(".mouse").fadeOut(2000);
+        })
+    });
 
     return (<div className='row flex-row-reverse headMarg'>
         <div className='col-xl-9 col-lg-8 col-md-12 pageContent'>
             <PagesGroup activePage={activePage} onClick={onClick} />
-            <div className="row pageInfo">
+            <div className="row pageInfo scroll" id="pageInfo">
                 <div className="contentHeader">
                     <h2 className="contentHeaderTitle">ABOUT ME</h2>
                     <img src={Line} className="line" />
@@ -55,6 +63,7 @@ function Home({ activePage, onClick }) {
                         return (<AboutMeSection info={i} index={index} key={index} />)
                     })}
                 </div>
+                <div className="mouse" />
             </div>
         </div>
         <Profile />

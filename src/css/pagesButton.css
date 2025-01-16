@@ -81,3 +81,10 @@ margin: 0px;
         flex-direction: row;
     }
 }
+
+@media only screen and (max-width: 660px) {
+    .pagesContainer {
+        display: none;
+    }
+
+}
