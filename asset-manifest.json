@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactResumeWebsite/static/css/main.c3aad940.css",
-    "main.js": "/ReactResumeWebsite/static/js/main.6bca9d94.js",
+    "main.js": "/ReactResumeWebsite/static/js/main.fa37e814.js",
     "static/media/RRCTN.png": "/ReactResumeWebsite/static/media/RRCTN.7168e2b1ada6b8616a7f.png",
     "static/media/dbProject.pdf": "/ReactResumeWebsite/static/media/dbProject.502b48de59af9dd5462c.pdf",
     "static/media/MobileFoodAppTN.png": "/ReactResumeWebsite/static/media/MobileFoodAppTN.5dd802dbfdd40e95b41a.png",
@@ -33,10 +33,10 @@
     "static/media/activeContactIcon.svg": "/ReactResumeWebsite/static/media/activeContactIcon.028c05857c3023eb356e19d966c44443.svg",
     "static/media/development.svg": "/ReactResumeWebsite/static/media/development.d00678519654a10f5a16aadeff587f01.svg",
     "main.c3aad940.css.map": "/ReactResumeWebsite/static/css/main.c3aad940.css.map",
-    "main.6bca9d94.js.map": "/ReactResumeWebsite/static/js/main.6bca9d94.js.map"
+    "main.fa37e814.js.map": "/ReactResumeWebsite/static/js/main.fa37e814.js.map"
   },
   "entrypoints": [
     "static/css/main.c3aad940.css",
-    "static/js/main.6bca9d94.js"
+    "static/js/main.fa37e814.js"
   ]
 }
