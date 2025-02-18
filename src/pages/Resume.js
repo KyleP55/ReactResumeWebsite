@@ -4,7 +4,6 @@ import PagesGroup from "../components/PagesGroup";
 import EduExpSection from "../components/EduExpSection";
 import $ from "jquery";
 
-import setBodyHeight from "../utility/setBodyHeight";
 import Line from "../images/line.svg";
 import DegreeHat from "../images/degreeHat.svg";
 import Briefcase from "../images/briefcase.svg";
@@ -16,7 +15,7 @@ const education = [
         from: "Lambton College"
     },
     {
-        date: "2024-In Progress",
+        date: "2025-In Progress",
         title: "AWS Cloud Certified",
         from: "Udemy"
     }
@@ -40,20 +39,24 @@ const profSkills = [
     "HTML 5",
     "CSS 3",
     "JavaScript",
+    "Node.js",
+    "Express.js",
     "React Native",
     "SQL",
     "MongoDB",
     "Git",
-    "BootStrap",
-    "GMS2"
+    "RESTful APIs",
+    "GMS2",
 ];
 
 const softSkills = [
     "Time Management",
     "Problem Solving",
     "Organization",
-    "Customer Service",
-    "Passion for Learning"
+    "Communication",
+    "Attention to Detail",
+    "Teamwork",
+    "Critical Thinking"
 ];
 
 const relatedSkills = [
@@ -64,8 +67,11 @@ const relatedSkills = [
     ".NET",
     "Spring/Tyme-Leaf",
     "Pip",
+    "BootStrap",
     "TypeScript",
     "TailWind",
+    "Authentication",
+    "Unit Testing",
     "CI/CD Pipeline",
     "Agile Methodology",
     "Figma",

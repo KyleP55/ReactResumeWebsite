@@ -12,7 +12,9 @@ function WorkSection({ info, index }) {
 
 
     return (<div className="outerDiv"><div className={cn}><a href={info.link} className="clearUnderline">
-        <img src={info.img} className="workSectionImage" alt="image" />
+        <div className="centerImg">
+            <img src={info.img} className="workSectionImage" alt="image" />
+        </div>
         <p className="sectionTitleText workSectionTitleText">{info.title}</p>
         <p className="sectionText workSectionText">{info.description}</p>
     </a></div></div>);

@@ -25,7 +25,7 @@ const sectionInfo = [
     {
         image: gameIcon,
         title: "Game Development",
-        info: "Game development is what ignited my passion for programming when I was in highschool back in 2005. Though it was just a side hobby at the time it I started out with Tutoring and Flash ActionScript 2 but then switch to GMS, Unity and Godot."
+        info: "Game development is what ignited my passion for programming when I was in highschool back in 2005. Though it was just a side hobby at the time, I started out with Tutoring and Flash ActionScript 2, but then switch to GMS, Unity and Godot."
     },
     {
         image: databaseIcon,
@@ -51,10 +51,9 @@ function Home({ activePage, onClick }) {
                     <img src={Line} className="line" />
                 </div>
                 <div className="paragraphDiv">
-                    <p className="paragraphText">Hello there! I'm thrilled to welcome you to my portfolio. I am a passionate and versatile
-                        full-stack developer with a keen interest in exploring the latest cutting-edge technologies.
-                        My journey in the world of web development has been nothing short of exhilarating, and
-                        I constantly strive to enhance my skills and embrace emerging trends in the industry.</p>
+                    <p className="paragraphText"><b>Passionate MERN Stack Developer. </b>
+
+                        I’m a web developer with a strong focus on the MERN stack—MongoDB, Express, React, and Node.js. I’m driven by a passion for creating seamless, dynamic web applications that solve real-world problems. With a keen eye for detail and a commitment to clean, efficient code, I work with clients to turn innovative ideas into high-performance web solutions. Let's build something amazing together!</p>
                 </div>
                 <h2 className="subTitle">What I Do!</h2>
 
