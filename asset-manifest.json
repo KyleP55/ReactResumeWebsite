@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/ReactResumeWebsite/static/css/main.c3aad940.css",
+    "main.js": "/ReactResumeWebsite/static/js/main.6bca9d94.js",
+    "static/media/RRCTN.png": "/ReactResumeWebsite/static/media/RRCTN.7168e2b1ada6b8616a7f.png",
+    "static/media/dbProject.pdf": "/ReactResumeWebsite/static/media/dbProject.502b48de59af9dd5462c.pdf",
+    "static/media/MobileFoodAppTN.png": "/ReactResumeWebsite/static/media/MobileFoodAppTN.5dd802dbfdd40e95b41a.png",
+    "static/media/dbProjectTN.png": "/ReactResumeWebsite/static/media/dbProjectTN.f00b0e6f492c8b90c8c2.png",
+    "static/media/MobileFeatsTN.png": "/ReactResumeWebsite/static/media/MobileFeatsTN.5cd45e879aa1c5516bf8.png",
+    "static/media/MobileNumberGameTN.png": "/ReactResumeWebsite/static/media/MobileNumberGameTN.5ee280ec7b8ae113fd5a.png",
+    "static/media/GoalListTN.png": "/ReactResumeWebsite/static/media/GoalListTN.c9875eb38df905488d72.png",
+    "static/media/HeadShot2.png": "/ReactResumeWebsite/static/media/HeadShot2.6eeee32bc128bc509c83.png",
+    "static/media/kpResume.pdf": "/ReactResumeWebsite/static/media/kpResume.83cf9cd6013033c79d7d.pdf",
+    "static/media/ChattyAppSS.png": "/ReactResumeWebsite/static/media/ChattyAppSS.7c3418e341ab7ba4cfcb.png",
+    "static/media/KylePowellLogo.svg": "/ReactResumeWebsite/static/media/KylePowellLogo.8d49c02dfbc6aa54e3044bf81f3b77a0.svg",
+    "static/media/Download.svg": "/ReactResumeWebsite/static/media/Download.233f0028c1528b432d91945fb8aff33c.svg",
+    "static/media/SubmitButton.svg": "/ReactResumeWebsite/static/media/SubmitButton.6349fd8e82d5bd8fd3bb7aa42c8a1b5a.svg",
+    "static/media/briefcase.svg": "/ReactResumeWebsite/static/media/briefcase.4dafec2ca4edec4fbf3bed5db0c3e308.svg",
+    "index.html": "/ReactResumeWebsite/index.html",
+    "static/media/degreeHat.svg": "/ReactResumeWebsite/static/media/degreeHat.0aab79379d4c03e75d0986ddda6322ab.svg",
+    "static/media/Location.svg": "/ReactResumeWebsite/static/media/Location.8df5cc9369d302a4afcdf081a93ccfb4.svg",
+    "static/media/gridicons_phone.svg": "/ReactResumeWebsite/static/media/gridicons_phone.c1c96c615e120b30a38010080e2e816d.svg",
+    "static/media/workIcon.svg": "/ReactResumeWebsite/static/media/workIcon.503442da0b8ebf4ffd62a74107232698.svg",
+    "static/media/activeWorkIcon.svg": "/ReactResumeWebsite/static/media/activeWorkIcon.e158a8def24856d6a4ef7ffb7bb7dc75.svg",
+    "static/media/Email.svg": "/ReactResumeWebsite/static/media/Email.0914cc30ec2ef2a96e26fc0c1aae7459.svg",
+    "static/media/resumeIcon.svg": "/ReactResumeWebsite/static/media/resumeIcon.21e66b9e70332fdf1b4ac26c6b648553.svg",
+    "static/media/homeIcon.svg": "/ReactResumeWebsite/static/media/homeIcon.50c8e0453704a7a853b5eaee40484cd2.svg",
+    "static/media/app.svg": "/ReactResumeWebsite/static/media/app.af48dc615df04510b668880d79985aa2.svg",
+    "static/media/activeResumeIcon.svg": "/ReactResumeWebsite/static/media/activeResumeIcon.1218b791a1d13b0f837aed5c8f509f1c.svg",
+    "static/media/activeHomeIcon.svg": "/ReactResumeWebsite/static/media/activeHomeIcon.9c008b95d85b1f2012e2044728b0c806.svg",
+    "static/media/contactIcon.svg": "/ReactResumeWebsite/static/media/contactIcon.49d9235741b228b860ef15a613797f83.svg",
+    "static/media/line.svg": "/ReactResumeWebsite/static/media/line.464810059ac0ed241fd33247d76bb533.svg",
+    "static/media/activeContactIcon.svg": "/ReactResumeWebsite/static/media/activeContactIcon.028c05857c3023eb356e19d966c44443.svg",
+    "static/media/development.svg": "/ReactResumeWebsite/static/media/development.d00678519654a10f5a16aadeff587f01.svg",
+    "main.c3aad940.css.map": "/ReactResumeWebsite/static/css/main.c3aad940.css.map",
+    "main.6bca9d94.js.map": "/ReactResumeWebsite/static/js/main.6bca9d94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3aad940.css",
+    "static/js/main.6bca9d94.js"
+  ]
+}

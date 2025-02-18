@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="none" viewBox="0 0 29 29">
+  <path stroke="url(#a)" stroke-linecap="round" stroke-width="2.311" d="M10.228 9.88V7.57a2.312 2.312 0 0 1 2.312-2.312h4.623a2.312 2.312 0 0 1 2.311 2.311v2.312M5.605 16.815l3.641.91c3.68.92 7.53.92 11.21 0l3.64-.91"/>
+  <path stroke="url(#b)" stroke-linejoin="round" stroke-width="2.311" d="M5.605 12.192a2.311 2.311 0 0 1 2.312-2.311h13.868a2.311 2.311 0 0 1 2.312 2.311v9.246a2.311 2.311 0 0 1-2.312 2.312H7.917a2.311 2.311 0 0 1-2.312-2.312v-9.246Z"/>
+  <path fill="url(#c)" d="M14.847 15.657a1.156 1.156 0 1 0 0-2.311 1.156 1.156 0 0 0 0 2.311Z"/>
+  <defs>
+    <linearGradient id="a" x1="14.851" x2="14.851" y1="5.258" y2="18.414" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9C1A"/>
+      <stop offset="1" stop-color="#E80505"/>
+    </linearGradient>
+    <linearGradient id="b" x1="14.851" x2="14.851" y1="9.881" y2="23.75" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9C1A"/>
+      <stop offset="1" stop-color="#E80505"/>
+    </linearGradient>
+    <linearGradient id="c" x1="14.847" x2="14.847" y1="13.346" y2="15.657" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9C1A"/>
+      <stop offset="1" stop-color="#E80505"/>
+    </linearGradient>
+  </defs>
+</svg>
