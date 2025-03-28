@@ -7,6 +7,10 @@ function Credits() {
         <a href="https://www.flaticon.com/free-icons/move" title="move icons">Move icons created by Royyan Wijaya - Flaticon</a>
 
         <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by ariefstudio - Flaticon</a>
+
+        <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
+
+        <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by riajulislam - Flaticon</a>
     </div>)
 }
 

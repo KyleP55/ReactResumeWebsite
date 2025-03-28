@@ -6,6 +6,8 @@ import '../css/profile.css';
 
 import PDF from "../files/kpResume.pdf";
 
+import githubIcon from '../images/github.png';
+import linkedinIcon from '../images/linkedin.png';
 import mobileImg from '../images/gridicons_phone.svg';
 import emailImg from '../images/Email.svg';
 import locationImg from '../images/Location.svg';
@@ -43,8 +45,8 @@ function Profile() {
                     <p className='nameText'>Kyle Powell</p>
                     <p className="descriptionText">Full-Stack Developer</p>
                     <div className="socialsContainer">
-                        <SocialsButton icon="logo-linkedin" color="primary" link="https://www.linkedin.com/in/kyle-p-84242731a/" />
-                        <SocialsButton icon="logo-github" link="https://github.com/KyleP55" />
+                        <SocialsButton icon={linkedinIcon} link="https://www.linkedin.com/in/kyle-p-84242731a/" />
+                        <SocialsButton icon={githubIcon} link="https://github.com/KyleP55" />
                     </div>
                     <div className="profileContactContainer">
                         {contactInfo.map((i, index) => {
