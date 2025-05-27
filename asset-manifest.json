@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ReactResumeWebsite/static/css/main.5c5dfae4.css",
-    "main.js": "/ReactResumeWebsite/static/js/main.77b43d16.js",
+    "main.js": "/ReactResumeWebsite/static/js/main.38a6758b.js",
     "static/media/RRCTN.png": "/ReactResumeWebsite/static/media/RRCTN.7168e2b1ada6b8616a7f.png",
     "static/media/dbProject.pdf": "/ReactResumeWebsite/static/media/dbProject.502b48de59af9dd5462c.pdf",
     "static/media/MobileFoodAppTN.png": "/ReactResumeWebsite/static/media/MobileFoodAppTN.5dd802dbfdd40e95b41a.png",
     "static/media/dbProjectTN.png": "/ReactResumeWebsite/static/media/dbProjectTN.f00b0e6f492c8b90c8c2.png",
     "static/media/MobileFeatsTN.png": "/ReactResumeWebsite/static/media/MobileFeatsTN.5cd45e879aa1c5516bf8.png",
     "static/media/MobileNumberGameTN.png": "/ReactResumeWebsite/static/media/MobileNumberGameTN.5ee280ec7b8ae113fd5a.png",
-    "static/media/kpResume.pdf": "/ReactResumeWebsite/static/media/kpResume.841e08e02b70c51493a4.pdf",
     "static/media/GoalListTN.png": "/ReactResumeWebsite/static/media/GoalListTN.c9875eb38df905488d72.png",
     "static/media/HeadShot2.png": "/ReactResumeWebsite/static/media/HeadShot2.6eeee32bc128bc509c83.png",
+    "static/media/kpResume.pdf": "/ReactResumeWebsite/static/media/kpResume.9c8299ff599c2f439170.pdf",
     "static/media/ChattyAppSS.png": "/ReactResumeWebsite/static/media/ChattyAppSS.7c3418e341ab7ba4cfcb.png",
     "static/media/github.png": "/ReactResumeWebsite/static/media/github.a855c3975c028d8069f5.png",
     "static/media/linkedin.png": "/ReactResumeWebsite/static/media/linkedin.f249b38224ca41a0b909.png",
@@ -35,10 +35,10 @@
     "static/media/activeContactIcon.svg": "/ReactResumeWebsite/static/media/activeContactIcon.028c05857c3023eb356e19d966c44443.svg",
     "static/media/development.svg": "/ReactResumeWebsite/static/media/development.d00678519654a10f5a16aadeff587f01.svg",
     "main.5c5dfae4.css.map": "/ReactResumeWebsite/static/css/main.5c5dfae4.css.map",
-    "main.77b43d16.js.map": "/ReactResumeWebsite/static/js/main.77b43d16.js.map"
+    "main.38a6758b.js.map": "/ReactResumeWebsite/static/js/main.38a6758b.js.map"
   },
   "entrypoints": [
     "static/css/main.5c5dfae4.css",
-    "static/js/main.77b43d16.js"
+    "static/js/main.38a6758b.js"
   ]
 }
