@@ -52,7 +52,7 @@ function Home({ activePage, onClick }) {
                 </div>
                 <div className="paragraphDiv">
                     <p className="paragraphText"><b>Passionate MERN Stack Developer. </b>
-
+                        <br />
                         I’m a web developer with a strong focus on the MERN stack—MongoDB, Express, React, and Node.js. I’m driven by a passion for creating seamless, dynamic web applications that solve real-world problems. With a keen eye for detail and a commitment to clean, efficient code, I work with clients to turn innovative ideas into high-performance web solutions. Let's build something amazing together!</p>
                 </div>
                 <h2 className="subTitle">What I Do!</h2>
