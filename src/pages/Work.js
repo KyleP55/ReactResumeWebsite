@@ -22,7 +22,7 @@ const workInfo = [
         img: ChattyAppIcon,
         title: "Chatty App",
         description: "A live, responsive, 3-tier chat app with group and private chats. Deployed with AWS's EC2, Route53, and built with MERN and socket.io.",
-        link: "http://chattyapp.ca"
+        link: "http://15.222.108.217:3000/"
     },
     {
         img: RRCTN,
