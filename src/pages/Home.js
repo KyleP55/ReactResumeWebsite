@@ -15,23 +15,23 @@ const sectionInfo = [
     {
         image: devIcon,
         title: "Full-Stack Development",
-        info: "Over 4 years of experience with MERN stack, full-stack development is what I am most passionate about. With experience in Next.js, C# .net, Pyton and Java Thymeleaf/Spring I am quite diverse. Check out my Work page for live applications or my github for other projects!"
+        info: "Over 4 years of experience building full-stack applications with MongoDB, Express, React, and Node.js. I also work with Next.js, C#/.NET, Python, and Java/Spring. See examples on my Work page."
     },
     {
         image: appIcon,
         title: "Mobile App Development",
-        info: "Over 2 years experience with React Native and still learning new languages and libraries. experience with developing for both Android and Apple for both mobile phone and tablets as well. Examples are projects are on my github and run on expo."
+        info: "2+ years developing iOS and Android apps with React Native. Comfortable with Expo, UI libraries, and optimizing layouts for phones and tablets. Mobile projects are available on GitHub."
+    },
+    {
+        image: databaseIcon,
+        title: "Data-Base Design/Development",
+        info: "Experienced with both SQL and NoSQL data modeling. I enjoy translating project requirements into clean, efficient, and scalable database structures. See my database design project for an example."
     },
     {
         image: gameIcon,
         title: "Game Development",
         info: "Game development is what ignited my passion for programming when I was in highschool back in 2005. Though it was just a side hobby at the time, I started out with Tutoring and Flash ActionScript 2, but then switch to GMS, Unity and Godot."
     },
-    {
-        image: databaseIcon,
-        title: "Data-Base Design/Development",
-        info: "With experience in both SQL and Non-Sql databases, I am confident I can design and build a database with relationships to fit any projects needs. On the work page you can find an example of a database design project I did in school."
-    }
 ]
 
 function Home({ activePage, onClick }) {
@@ -51,9 +51,9 @@ function Home({ activePage, onClick }) {
                     <img src={Line} className="line" />
                 </div>
                 <div className="paragraphDiv">
-                    <p className="paragraphText"><b>Passionate MERN Stack Developer. </b>
+                    <p className="paragraphText"><b>Full-stack developer specializing in the MERN stack. </b>
                         <br />
-                        I’m a web developer with a strong focus on the MERN stack—MongoDB, Express, React, and Node.js. I’m driven by a passion for creating seamless, dynamic web applications that solve real-world problems. With a keen eye for detail and a commitment to clean, efficient code, I work with clients to turn innovative ideas into high-performance web solutions. Let's build something amazing together!</p>
+                        I build reliable, user-focused web applications with clear structure, maintainable code, and modern tooling. My experience spans frontend interfaces, backend APIs, and deployment pipelines on AWS.</p>
                 </div>
                 <h2 className="subTitle">What I Do!</h2>
 

@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="bg">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Header />}>
             <Route index element={<Home activePage={activePage} onClick={onClickHandler} />} />

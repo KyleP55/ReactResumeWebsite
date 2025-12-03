@@ -7,6 +7,7 @@ import setBodyHeight from "../utility/setBodyHeight";
 import ChattyAppIcon from "../images/ChattyAppSS.png"
 import DbProjectTN from "../images/dbProjectTN.png";
 import RRCTN from "../images/RRCTN.png";
+import AATN from "../images/ArmyAppTN.png";
 import GLTN from "../images/GoalListTN.png";
 import MNGTN from "../images/MobileNumberGameTN.png";
 import MFATN from "../images/MobileFoodAppTN.png";
@@ -20,44 +21,26 @@ import dbPDF from "../files/dbProject.pdf";
 const workInfo = [
     {
         img: ChattyAppIcon,
+        title: "Project Manager App",
+        description: "A full MERN-stack project and time-tracking app with support for projects, tasks, and multi-level subtasks. Includes real-time time logging, analytics, and user roles for both solo and team workflows.",
+        link: "projectManager.kyle-p.dev"
+    },
+    {
+        img: ChattyAppIcon,
         title: "Chatty App",
-        description: "A live, responsive, 3-tier chat app with group and private chats. Deployed with AWS's EC2, Route53, and built with MERN and socket.io.",
-        link: "http://15.222.108.217:3000/"
+        description: "A full-stack real-time chat platform featuring private (1-on-1) and group conversations with live updates through Socket.IO. All messages are stored in MongoDB for seamless syncing across devices. Built with the MERN stack and deployed on AWS EC2.",
+        link: "chattyApp.kyle-p.dev"
     },
     {
-        img: RRCTN,
-        title: "Red Ray Construction Website",
-        description: "A website designed and built for a friend's company while in school using HTML5, CSS3 and JS.",
-        link: "https://github.com/KyleP55/RedRayWebsite/tree/main"
-    },
-    {
-        img: GLTN,
-        title: "Mobile Goals List App",
-        description: "A basic mobile list app to add goals. Built in React Native and powered by Expo.",
-        link: "https://github.com/KyleP55/ReactNative_NumberGame"
-    },
-    {
-        img: MNGTN,
-        title: "Mobile Number Game",
-        description: "A mobile game where the computer tries to guess your number. Built in React Native and powered by Expo.",
-        link: "https://github.com/KyleP55/ReactNative_NumberGame"
-    },
-    {
-        img: MFATN,
-        title: "Mobile Food App",
-        description: "A mobile app with food recipes including steps and ingredients. Built in React Native and powered by Expo.",
-        link: "https://github.com/KyleP55/MealsApp"
-    },
-    {
-        img: MFTN,
-        title: "Mobile Native Features App",
-        description: "A mobile app that uses Native mobile features such as Location, Google Maps, Camera, and Permissions. The Google Maps key trail has expired and the app does not function correctly anymore.",
-        link: "https://github.com/KyleP55/NativeFeats"
+        img: AATN,
+        title: "Army App",
+        description: "A React-based companion app for tabletop army games, featuring searchable unit lists with full stats, loadouts, and special abilities. All keywords and abilities are clickable, opening contextual pop-ups that explain rules and interactions for smooth in-game reference.",
+        link: "armyApp.kyle-p.dev"
     },
     {
         img: DbProjectTN,
-        title: "School Database Design Project",
-        description: "A formal SQL database design proposal for a made up company.",
+        title: "Relational Database Architecture Proposal",
+        description: "A comprehensive SQL database design for a hypothetical company, including entity-relationship modeling, normalization, schema definitions, and justification of design decisions.",
         link: dbPDF
     },
 ]
