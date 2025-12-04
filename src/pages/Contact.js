@@ -33,9 +33,9 @@ function Contact({ activePage, onClick }) {
                 <div className="formContainer">
                     <form ref={form} onSubmit={sendForm}>
                         <div className="textDiv botMarg">
-                            <p className="centerText"><b>Let's Build the Future Together!</b>
+                            <p className="centerText"><b>Let’s Connect</b>
                                 <br /><br />
-                                Feel free to reach out for web app development <b>opportunities</b>, <b>collaborations</b>, or <b>exciting projects</b>. I'm always open to new challenges and innovative ideas. Let’s make something amazing!</p>
+                                Whether you’re looking for a developer for your next project or want to discuss a collaboration, feel free to reach out. I’m always happy to talk about building great software.</p>
                         </div>
 
                         <label className="labelText">Name:</label>
