@@ -6,12 +6,9 @@ import $ from "jquery";
 import setBodyHeight from "../utility/setBodyHeight";
 import ChattyAppIcon from "../images/ChattyAppSS.png"
 import DbProjectTN from "../images/dbProjectTN.png";
-import RRCTN from "../images/RRCTN.png";
 import AATN from "../images/ArmyAppTN.png";
-import GLTN from "../images/GoalListTN.png";
-import MNGTN from "../images/MobileNumberGameTN.png";
-import MFATN from "../images/MobileFoodAppTN.png";
-import MFTN from "../images/MobileFeatsTN.png";
+import ProjectManagerTN from "../images/ProjectManagerTN.png";
+
 
 import WorkSection from "../components/WorkSection";
 import Line from "../images/line.svg";
@@ -20,9 +17,9 @@ import dbPDF from "../files/dbProject.pdf";
 
 const workInfo = [
     {
-        img: ChattyAppIcon,
+        img: ProjectManagerTN,
         title: "Project Manager App",
-        description: "A full MERN-stack project and time-tracking app with support for projects, tasks, and multi-level subtasks. Includes real-time time logging, analytics, and user roles for both solo and team workflows.",
+        description: "A full MERN-stack project and time-tracking app with support for projects, tasks, and multi-level subtasks. Includes real-time time logging, and user roles for both solo and team workflows. Mobile layout and analytics to come!",
         link: "projectManager.kyle-p.dev"
     },
     {
