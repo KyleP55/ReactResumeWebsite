@@ -20,19 +20,19 @@ const workInfo = [
         img: ProjectManagerTN,
         title: "Project Manager App",
         description: "A full MERN-stack project and time-tracking app with support for projects, tasks, and multi-level subtasks. Includes real-time time logging, and user roles for both solo and team workflows. Mobile layout and analytics to come!",
-        link: "projectManager.kyle-p.dev"
+        link: "https://projectManager.kyle-p.dev"
     },
     {
         img: ChattyAppIcon,
         title: "Chatty App",
         description: "A full-stack real-time chat platform featuring private (1-on-1) and group conversations with live updates through Socket.IO. All messages are stored in MongoDB for seamless syncing across devices. Built with the MERN stack and deployed on AWS EC2.",
-        link: "chattyApp.kyle-p.dev"
+        link: "https://chattyApp.kyle-p.dev"
     },
     {
         img: AATN,
         title: "Army App",
         description: "A React-based companion app for tabletop army games, featuring searchable unit lists with full stats, loadouts, and special abilities. All keywords and abilities are clickable, opening contextual pop-ups that explain rules and interactions for smooth in-game reference.",
-        link: "armyApp.kyle-p.dev"
+        link: "https://armyApp.kyle-p.dev"
     },
     {
         img: DbProjectTN,
