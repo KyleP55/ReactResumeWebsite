@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://kylep55.github.io/ReactResumeWebsite",
+  "homepage": "https://kylep55.github.io/",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",

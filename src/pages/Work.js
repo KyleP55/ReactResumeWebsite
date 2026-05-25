@@ -29,12 +29,6 @@ const workInfo = [
         link: "https://chattyApp.kyle-p.dev"
     },
     {
-        img: AATN,
-        title: "Army App",
-        description: "A React-based companion app for tabletop army games, featuring searchable unit lists with full stats, loadouts, and special abilities. All keywords and abilities are clickable, opening contextual pop-ups that explain rules and interactions for smooth in-game reference.",
-        link: "https://armyApp.kyle-p.dev"
-    },
-    {
         img: DbProjectTN,
         title: "Relational Database Architecture Proposal",
         description: "A comprehensive SQL database design for a hypothetical company, including entity-relationship modeling, normalization, schema definitions, and justification of design decisions.",
