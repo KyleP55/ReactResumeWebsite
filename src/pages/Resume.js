@@ -15,7 +15,7 @@ const education = [
         from: "Lambton College"
     },
     {
-        date: "2025-In Progress",
+        date: "2026-In Progress",
         title: "AWS Cloud Certified",
         from: "Udemy"
     }
@@ -46,6 +46,7 @@ const profSkills = [
     "MongoDB",
     "Git",
     "RESTful APIs",
+    "Playwright",
     "GMS2",
 ];
 
@@ -70,6 +71,8 @@ const relatedSkills = [
     "BootStrap",
     "TypeScript",
     "TailWind",
+    "Playwright",
+    "Manual/Automated Testing",
     "Authentication",
     "Unit Testing",
     "CI/CD Pipeline",
