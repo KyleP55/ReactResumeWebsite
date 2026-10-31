@@ -8,6 +8,7 @@ import ChattyAppIcon from "../images/ChattyAppSS.png"
 import DbProjectTN from "../images/dbProjectTN.png";
 import AATN from "../images/ArmyAppTN.png";
 import ProjectManagerTN from "../images/ProjectManagerTN.png";
+import GameTN from "../images/GameTN.png";
 
 
 import WorkSection from "../components/WorkSection";
@@ -27,6 +28,12 @@ const workInfo = [
         title: "Chatty App",
         description: "A full-stack real-time chat platform featuring private (1-on-1) and group conversations with live updates through Socket.IO. All messages are stored in MongoDB for seamless syncing across devices. Built with the MERN stack and deployed on AWS EC2.",
         link: "https://chattyApp.kyle-p.dev"
+    },
+    {
+        img: GameTN,
+        title: "Rogue Like Game",
+        description: "A random RPG/Dungeon crawler inspired by the old game rogue. With randomly generated floors, rooms, loot drops, and enemies, unlock abilities and perks as you level up and try to reach the highest level. Work In Progress",
+        link: "https://roguelite.kyle-p.dev"
     },
     {
         img: DbProjectTN,
